@@ -13,6 +13,7 @@ pytest-mock = "^3.14.0"
 redis = "^5.0.8"
 fastapi = "^0.112.1"
 uvicorn = "^0.30.6"
+alembic = "^1.13.2"
 
 
 [build-system]
