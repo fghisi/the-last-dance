@@ -12,6 +12,7 @@ pytest = "^8.3.2"
 pytest-mock = "^3.14.0"
 redis = "^5.0.8"
 fastapi = "^0.112.1"
+uvicorn = "^0.30.6"
 
 
 [build-system]
