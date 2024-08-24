@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "user-api"
+version = "0.1.0"
+description = ""
+authors = ["Fernando Ghisi <feghisi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.32"
+pytest = "^8.3.2"
+pytest-mock = "^3.14.0"
+redis = "^5.0.8"
+fastapi = "^0.112.1"
+uvicorn = "^0.30.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
